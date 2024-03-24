@@ -1,0 +1,274 @@
+*{
+    margin: 0% ;
+    padding: 0%;
+    border: 0cm;    
+}
+
+.bg
+{
+     background-image: url(/image/bg.avif);
+     background-size: cover;
+    height: 462px;
+    margin: 0% ;
+    padding: 0%;
+    border: 0cm;
+}
+.nav-bar ul{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.6rem;
+    color: white;
+    list-style: none;
+   padding: 20px;
+   margin-left:80px ;
+   margin-right:100px ;
+
+}
+.t1
+{
+    width: 50%;
+    font-size: 1.4rem;
+    padding-left: 60px;
+    color: white;
+}
+a{
+    color: white ;
+    text-decoration: none;
+}
+.logo
+{
+    position: relative;
+    top: 46px;
+    left: 650px;
+    width: 355px;
+    height: 75px;
+    margin: 0% ;
+    padding: 10px;
+}
+.pnav
+{
+    position: relative;
+    top: 46px;
+ text-align: center;
+    font-size: 45px;
+    color: white;
+    padding: 15px;
+}
+.search-bar
+{
+    display: flex;
+    align-items: center;
+  position: relative;
+  width: 990px;
+  top: 46px;
+  left: 322px;
+  text-align: center;
+  font-size: 45px;
+  padding: 15px;
+  border-radius: 45px;
+  background-color: white;
+}
+.location-img , .search-img
+{
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(235, 63, 63);
+}
+.location-input
+{
+    font-size: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+.search-input
+{
+    font-size: 25px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    width:  70%;
+}
+.box
+{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    position: relative;
+    height: 400px;
+}
+.box1 ,.box2,.box3
+{
+    height: 300px;
+    width: 385px;
+    border-radius: 17px;
+    padding: 15px;
+    border: 0.2px  solid gray ;
+} 
+.box1
+{ margin-left: 70px;
+    background-image: url(/image/b1.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.box2
+{ 
+    background-image: url(/image/b2.avif);
+}
+.box3
+{ 
+    margin-right: 70px;
+    background-image: url(/image/b3.avif);
+}
+.box1:hover 
+{
+    height: 330px;
+    width: 400px;
+}
+.box2:hover 
+{
+    height: 330px;
+    width: 400px;
+}
+.box3:hover 
+{
+    height: 330px;
+    width: 400px;
+}
+.btext
+{
+    position: relative;
+    top: 250px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+    margin: -15px;
+    height: 69px;
+    border-bottom-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+    color: rgb(0, 0, 0);
+}
+.btext p
+{margin: 0;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.collection
+{
+    position: relative;
+    top: 80px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+    margin: -15px;
+    height: 69px;
+    border-bottom-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+    color: rgb(0, 0, 0);
+    margin-left: 110px;
+}
+.collect
+{
+    font-size: 3.4rem;
+    font-weight: 400;
+}
+.collect2
+{
+    font-size: 30px;
+    font-weight: 200;
+}
+.collection-boxs
+{
+    height: 370px;
+    margin: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative; 
+    top: 100px;
+}
+.cbox1 ,.cbox2,.cbox3,.cbox4
+{
+    height: 370px;
+    border-radius: 17px;
+    border: 0.2px  solid gray ;
+    width: 290px; 
+    border-radius: 15px;
+    
+    }
+.c-img
+{
+    height: 100%;
+    width: 100%;
+    margin: 0% ;
+    padding: 0%;
+    border: 0cm;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.ctext
+{ 
+    position: relative;
+    top: -70px;
+    font-size: 1.7rem;
+    color: rgb(255, 233, 233);
+    background-color: transparent;
+    margin-left: 10px;
+}
+.cbg
+{
+    position: absolute;
+    top: 0px;
+    border-radius: 0.6rem;
+    width: 290px;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.19) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%);
+}
+.foot-logo
+{
+    position: relative;
+    top: 46px;
+    left: 65px;
+    width: 355px;
+    height: 75px;
+    margin: 0% ;
+    padding: 10px;   
+}
+.footer
+{
+ background-color: gainsboro;
+}
+.foot-text
+{
+    padding:  30px;
+    display: flex;
+    align-items:baseline;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+li{
+    display: flex;
+    flex-direction: column;
+    color: black;
+
+}
+li a{
+    color: black;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 200;
+    text-decoration: none;
+}
