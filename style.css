@@ -32,7 +32,7 @@
     padding-left: 60px;
     color: white;
 }
-a{
+.bga{
     color: white ;
     text-decoration: none;
 }
@@ -262,7 +262,7 @@ a{
 li{
     display: flex;
     flex-direction: column;
-    color: black;
+    /* color: black; */
 
 }
 li a{
