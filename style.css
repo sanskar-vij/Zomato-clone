@@ -272,3 +272,13 @@ li a{
     font-weight: 200;
     text-decoration: none;
 }
+.foot
+{
+    border-top: 1px solid grey;
+    padding: 20px;
+    font-size: 19px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    }
